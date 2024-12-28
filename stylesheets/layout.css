@@ -169,3 +169,35 @@ body {
     transform: translateX(-100%);
   }
 }
+.section-3 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sprite {
+  width: 57.58vw;
+  height: 40.78vw;
+  background-image: url('sprite.png');
+  background-size: 345.47vw 40.78vw;
+  animation: sprite 3s steps(1) infinite;
+}
+@keyframes sprite {
+  0% {
+    background-position: 0 0;
+  }
+  16% {
+    background-position: 57.58vw 0;
+  }
+  32% {
+    background-position: 115.16vw 0;
+  }
+  48% {
+    background-position: 172.74vw 0;
+  }
+  64% {
+    background-position: 230.32vw 0;
+  }
+  80% {
+    background-position: 287.9vw 0;
+  }
+}
