@@ -133,3 +133,39 @@ body {
     letter-spacing: 8%;
   }
 }
+.section-2 {
+  display: flex;
+  position: absolute;
+  background-color: #5f0008;
+  width: 1920px;
+  height: 136px;
+  flex-shrink: 0;
+}
+.running-line {
+  width: 1236px;
+  height: 60px;
+  margin-top: 38px;
+  color: #ffffff;
+  font-family: PaladinPCRus;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.84px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.running-line {
+  display: inline-block;
+  animation: running-line 10s linear infinite;
+}
+
+@keyframes running-line {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
