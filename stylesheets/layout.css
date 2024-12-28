@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1920px;
+
+  display: block;
+  margin: 0 auto;
+  background-color: #130212;
+}
+
+.section-1 {
+  display: flex;
+  position: relative;
+  width: 1920px;
+  height: 876px;
+  flex-shrink: 0;
+  font-family: 'Sehnsucht Font';
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  .div-logo {
+    position: absolute;
+    width: 940.5px;
+    height: 612.325px;
+    margin-top: 132px;
+    margin-left: 491px;
+    margin-right: 489px;
+    flex-shrink: 0;
+  }
+  .div-demoneyes-1 {
+    position: absolute;
+    width: 122.088px;
+    height: 23.552px;
+    margin-top: 100.2px;
+    margin-left: 131.85px;
+    margin-right: 1026px;
+    flex-shrink: 0;
+  }
+  .div-demoneyes-2 {
+    position: absolute;
+    width: 288.344px;
+    height: 55.624px;
+    margin-top: 99px;
+    margin-left: 1435px;
+    margin-right: 35.1px;
+    flex-shrink: 0;
+  }
+  .div-demoneyes-3 {
+    position: absolute;
+    width: 432.516px;
+    height: 83.436px;
+    margin-top: 623px;
+    margin-left: 28px;
+    margin-right: 963.66px;
+    flex-shrink: 0;
+  }
+  .div-demoneyes-4 {
+    position: absolute;
+    width: 244.282px;
+    height: 47.124px;
+    margin-top: 734px;
+    margin-left: 1589px;
+    margin-right: 86.6px;
+    flex-shrink: 0;
+  }
+  .div-textaround-1 {
+    position: absolute;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-left: 48px;
+    margin-right: 1589px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-2 {
+    position: absolute;
+    font-size: 45px;
+    margin-top: 82px;
+    margin-left: 960px;
+    margin-right: 550px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-3 {
+    position: absolute;
+    font-size: 64px;
+    transform: rotate(10.518deg);
+    margin-top: 32.41px;
+    margin-left: 1289px;
+    margin-right: 150px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-4 {
+    position: absolute;
+    font-size: 64px;
+    transform: rotate(11.514deg);
+    margin-top: 358px;
+    margin-left: 67px;
+    margin-right: 1588px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-5 {
+    position: absolute;
+    font-size: 64px;
+    transform: rotate(27.456deg);
+    margin-top: 301.04px;
+    margin-left: 1688.85px;
+    margin-right: 25.49px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-6 {
+    position: absolute;
+    font-size: 48px;
+    transform: rotate(-10.93deg);
+    margin-top: 579.19px;
+    margin-left: 1514.68px;
+    margin-right: 115.68px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-7 {
+    position: absolute;
+    font-size: 64px;
+    margin-top: 739px;
+    margin-left: 83px;
+    margin-right: 1588px;
+    letter-spacing: 8%;
+  }
+  .div-textaround-8 {
+    position: absolute;
+    font-size: 45px;
+    margin-top: 758px;
+    margin-left: 1188px;
+    margin-right: 292px;
+    letter-spacing: 8%;
+  }
+}
